@@ -1,4 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-ReactDOM.render(<div />, document.getElementById('root'));
+import List from './components/list'
+
+ReactDOM.render(<List />, document.getElementById('root'))
