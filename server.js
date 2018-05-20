@@ -11,7 +11,7 @@ app.use(express.static(path.resolve(__dirname, 'build')))
 app.use(bodyParser.json())
 
 app.get('/cities', (request, response) => {
-    response.send(require('./static/cities.json'))
+    response.send(require('./src/static/cities.json'))
 })
 
 app.get('*', (request, response) => {

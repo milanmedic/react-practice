@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom'
 
 import List from './components/list'
 
-ReactDOM.render(<List />, document.getElementById('root'))
+ReactDOM.render(<List greeting="Hello from Index" />, document.getElementById('root'))
